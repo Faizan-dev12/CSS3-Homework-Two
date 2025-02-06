@@ -1,0 +1,41 @@
+/* CSS file */
+
+/* Style for the nav */
+nav {
+    background-color: #4CAF50;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Commenting out the existing li styling */
+/* li {
+    display: inline;
+    width: auto;
+    margin-right: 15px;
+} */
+
+/* Style for the nav image */
+nav img {
+    width: 10%;
+}
+
+/* Style for the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Style only images in the grid class */
+.grid img {
+    width: 100%;
+}
+
+/* Style for the flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
